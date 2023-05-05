@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: google_trends
+    database: bigquery-public-data
+    schema: google_trends
+    tables:
+      - name: international_top_rising_terms
+      - name: international_top_terms
+      - name: top_rising_terms
+      - name: top_terms
+      
