@@ -1,4 +1,4 @@
-select
+    select
     score,
     rank,
     refresh_date,
